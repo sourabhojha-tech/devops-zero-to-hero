@@ -1,0 +1,9 @@
+name: CICD
+on:
+  workflow_dispatch:
+jobs:
+  code:
+    run-on: ubuntu-latest
+    steps:
+      - name: checkout code
+        steps: echo "code clone from github"
